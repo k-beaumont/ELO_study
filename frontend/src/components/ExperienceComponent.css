@@ -1,0 +1,61 @@
+.ExperienceWrapper {
+    text-align: center;
+}
+
+.experience_question {
+    text-decoration: none;
+    text-align: center;
+    color: #000000;
+    font-size: 44px;
+}
+
+.highlight-better {
+    color: green;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.highlight-worse {
+    color: red;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.events {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.event {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 150px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.event h2 {
+    text-decoration: none;
+    color : #000000;
+    font-size: 28px;
+    margin: 0;
+}
+
+.event.selected {
+    border-color: #007bff;
+    box-shadow: 0 0 20px rgba(0, 123, 255, 0.5);
+    background: linear-gradient(to right, #e0f7fa, #e0f7fa);
+}
+
+.event:hover {
+    border-color: #007bff;
+    box-shadow: 0 0 15px rgba(0, 123, 255, 0.3);
+}
